@@ -3,13 +3,13 @@
 # "YOUR_USERNAME", "YOUR_SITE_TITLE", etc., with your actual data.
 
 # The base URL of the site; the only required configuration variable.
-base_url = "https://YOUR_URL.TLD"
+base_url = "https://drmmpro.github.io"
 
 # The site theme to use.
 theme = "linkita"
 
 # For overriding the default output directory `public`, set it to another value (e.g.: "docs")
-# output_dir = "public"
+output_dir = "public"
 
 # Whether dotfiles at the root level of the output directory are preserved when (re)building the site.
 # Enabling this also prevents the deletion of the output folder itself on rebuilds.
@@ -54,7 +54,7 @@ generate_sitemap = true
 generate_robots_txt = true
 
 # The default author for pages
-author = "YOUR_USERNAME"
+author = "Dr_MM_Pro"
 
 # The default language; used in feeds.
 default_language = "en"
@@ -62,8 +62,8 @@ default_language = "en"
 # Default language is English
 
 # The site title and description; used in feeds by default.
-title = "YOUR_SITE_TITLE"
-description = "YOUR_SITE_DESCRIPTION"
+title = "Documentation"
+description = "About GLPH-EU"
 
 # When set to "true", a search index is built from the pages and section
 # content for `default_language`.
@@ -137,7 +137,7 @@ smart_punctuation = true
 # lazy_async_image = false
 
 # Whether footnotes are rendered in the GitHub-style (at the bottom, with back references) or plain (in the place, where they are defined)
-# bottom_footnotes = false
+bottom_footnotes = true
 
 # When set to "true", support for GitHub-style alerts, a.k.a. callouts or admonitions, is enabled in the Markdown parser.
 # For example, this Markdown syntax:
@@ -318,7 +318,7 @@ invert_page_navigation = false
 # If not set, toc is enabled only on posts.
 # If set to false, toc is disabled on all pages.
 # Type: boolean or object
-# toc = true
+toc = true
 
 # Style config
 [extra.style]
@@ -361,11 +361,11 @@ avatar_invert = false
 
 # Profile name.
 # Default value: the username
-name = "YOUR_NAME"
+name = "Dr_Pro"
 
 # Profile bio.
 # Supports Markdown.
-bio = "Welcome to my personal site!"
+bio = "Welcome to my professional site!"
 
 # Social icons.
 # "name" should be the file name of "static/icons/*.svg" or
@@ -400,7 +400,7 @@ since = 2026
 license_url = "https://creativecommons.org/licenses/by-sa/4.0/deed"
 
 # Replace "YOUR_NAME" with your name and "CC BY-SA 4.0" with the name of the license you want.
-copyright = "&copy; $YEAR YOUR_NAME &vert; [CC BY-SA 4.0]($LICENSE_URL)"
+copyright = "&copy; 2026 GLPH-EU &vert; [CC BY-SA 4.0]($LICENSE_URL)"
 
 # Language specific options
 # For English
@@ -421,7 +421,7 @@ date_format = "%Y %b %-d"
 # page_info_on_paginator = []
 
 # Default value: extra.header_menu_name
-# header_menu_name = "menu_name"
+header_menu_name = "menu_name"
 
 # Default value: extra.header_buttons
 # header_buttons = []
